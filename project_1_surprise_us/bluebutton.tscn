@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://dolfrfab8n7n8"]
+
+[ext_resource type="Texture2D" uid="uid://mowo1qr4ysh3" path="res://blue button.png" id="1_lssgk"]
+
+[node name="bluebutton" type="TextureButton" unique_id=1143460223]
+offset_right = 40.0
+offset_bottom = 40.0
+texture_normal = ExtResource("1_lssgk")
+texture_pressed = ExtResource("1_lssgk")
+texture_hover = ExtResource("1_lssgk")

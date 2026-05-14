@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://nncsr4vshvra"]
+
+[ext_resource type="Texture2D" uid="uid://chrdwj4aspc8f" path="res://purple button.png" id="1_jrji3"]
+
+[node name="purplebutton" type="TextureButton" unique_id=759336283]
+offset_right = 40.0
+offset_bottom = 40.0
+texture_normal = ExtResource("1_jrji3")
+texture_pressed = ExtResource("1_jrji3")
+texture_hover = ExtResource("1_jrji3")

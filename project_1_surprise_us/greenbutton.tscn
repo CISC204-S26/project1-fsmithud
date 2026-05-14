@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://d2r3yo67ftc04"]
+
+[ext_resource type="Texture2D" uid="uid://b2dhnwxrxk3ls" path="res://green button.png" id="1_8w3bl"]
+
+[node name="TextureButton" type="TextureButton" unique_id=302427832]
+offset_right = 40.0
+offset_bottom = 40.0
+texture_normal = ExtResource("1_8w3bl")
+texture_pressed = ExtResource("1_8w3bl")
+texture_hover = ExtResource("1_8w3bl")

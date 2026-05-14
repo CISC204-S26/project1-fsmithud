@@ -1,0 +1,93 @@
+[gd_scene format=3 uid="uid://cjj12g0m7w0jl"]
+
+[ext_resource type="PackedScene" uid="uid://6nyhn6hu53yb" path="res://redbutton.tscn" id="1_fyqef"]
+[ext_resource type="PackedScene" uid="uid://dolfrfab8n7n8" path="res://bluebutton.tscn" id="2_m6e0p"]
+[ext_resource type="PackedScene" uid="uid://nncsr4vshvra" path="res://purplebutton.tscn" id="3_nltto"]
+[ext_resource type="PackedScene" uid="uid://d2r3yo67ftc04" path="res://greenbutton.tscn" id="4_ibotj"]
+
+[node name="UI" type="Control" unique_id=396935023]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TimerLabel" type="Label" parent="." unique_id=1764898070]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -28.5
+offset_top = -192.0
+offset_right = 28.5
+offset_bottom = -123.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 50
+text = "60"
+uppercase = true
+
+[node name="InstructionLabel" type="Label" parent="." unique_id=179615858]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -293.5
+offset_top = 47.0
+offset_right = 293.5
+offset_bottom = 89.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 30
+text = "Press buttons in the correct order"
+uppercase = true
+
+[node name="redbutton" type="VBoxContainer" parent="." unique_id=697184016]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 87.0
+offset_top = 26.0
+offset_right = 301.0
+offset_bottom = 244.0
+grow_vertical = 2
+scale = Vector2(0.8417435, 0.8417435)
+
+[node name="redbutton" parent="redbutton" unique_id=2114660891 instance=ExtResource("1_fyqef")]
+layout_mode = 2
+
+[node name="bluebutton" type="VBoxContainer" parent="." unique_id=676907021]
+layout_mode = 0
+offset_left = 354.0
+offset_top = 350.0
+offset_right = 571.0
+offset_bottom = 563.0
+scale = Vector2(0.86, 0.86)
+
+[node name="bluebutton" parent="bluebutton" unique_id=1143460223 instance=ExtResource("2_m6e0p")]
+layout_mode = 2
+
+[node name="purplebutton" type="VBoxContainer" parent="." unique_id=1484788414]
+layout_mode = 0
+offset_left = 623.0
+offset_top = 350.0
+offset_right = 840.0
+offset_bottom = 564.0
+scale = Vector2(0.86, 0.86)
+
+[node name="purplebutton" parent="purplebutton" unique_id=759336283 instance=ExtResource("3_nltto")]
+layout_mode = 2
+
+[node name="greenbutton" type="VBoxContainer" parent="." unique_id=48344687]
+layout_mode = 0
+offset_left = 883.0
+offset_top = 350.0
+offset_right = 1100.0
+offset_bottom = 576.0
+scale = Vector2(0.82, 0.82)
+
+[node name="greenbutton" parent="greenbutton" unique_id=302427832 instance=ExtResource("4_ibotj")]
+layout_mode = 2
