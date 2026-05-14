@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Project 1 Surprise Us"
-run/main_scene="res://Main.tscn"
+run/main_scene="uid://cjj12g0m7w0jl"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 
 [physics]
